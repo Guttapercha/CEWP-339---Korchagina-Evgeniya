@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<!-- ======================== -->
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment#1</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- SCRIPTS -->
+<!--	  nee this to be able to download jquery libraries-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js">
+
+    </script>
+    <!-- ======================== -->
+  </head>
+  <!-- ======================== -->
+<!--DIRECT CONVERSION	-->
+  <body>
+	  <header><img src="images/logo.png" alt="Revenue Quebec logo" >
+	  <h3>Calculator of Quebec sales taxes</h3>
+	  <input type="button" name="lan" class="buttons2"  value="FR" id="lan">
+	  </header>
+	  <div class="main">
+	  	<div class="container1">
+			<h4 id="a1">DIRECT CALCULATION</h4>
+		  <p id="p1">Amount without sales taxes</p>
+	  	<input type="text" name="amount" class="fields" id="before" placeholder="$AMOUNT">
+		<div id='er1' style="color:red" ></div><br>
+		<p id="g">GST (5%)</p><div class="result_GST" id="result_GST_after"></div>
+		<p id="q">QST (9.975%)</p><div class="result_QST" id="result_QST_after"></div>	  
+		<input type="button" name="toAfter" class="buttons"  value="CALCULATE" id="before_button">
+		<p id="p2">Amount with sales taxes</p>
+		<div class="result" id="result_after"></div>
+	  </div>
+<!--REVERSE CONVERSION	-->
+	  <div class="container2">
+		  <h4 id="a2">REVERSE CALCULATION</h4>
+		  <p id="p2">Amount with sales taxes</p>
+	  	<input type="text" name="amount" class="fields" id="after" placeholder="$AMOUNT">
+		  <div id='er2' style="color:red"></div><br>
+		  <p id="g">GST (5%)</p><div class="result_GST" id="result_GST_before"></div>
+		  <p id="q">QST (9.975%)</p><div class="result_QST" id="result_QST_before"></div>		  
+		<input type="button" name="toBefore" class="buttons"  value="CALCULATE" id="after_button">
+		<p id="p1">Amount without sales taxes</p>
+		<div class="result" id="result_before"></div>
+	  </div>	  
+		</div>
+	  
+	  <section>
+		<h4 id="h1">Quebec sales taxes</h4>
+		 <p id="d1">GST - goods and services tax</p>
+		 <p id="d2">QST - Québec sales tax</p>
+		 <p id="d3">GST nad QST are collected on sales or supplies of most property and services.</p>
+
+		<h4 id="h2">Calculator formula</h4>
+		<h5 id="t1">To calculate amount with sales taxes:</h5>	
+		<p id="d4">GST amount = Amount without sales taxes * 0.05</p> 
+		 <p id="d5">QST amount = Amount without sales taxes * 0.09975</p>
+		 <p id="d6">Amount with sales taxes = Amount without sales taxes * 1.14975</p>
+		
+		<h5 id="t2">To calculate amount without sales taxes:</h5>		
+		<p id="d7">Amount without sales taxes = Amount with sales taxes / 1.14975</p>
+		 <p id="d8">GST amount = Amount without sales taxes * 0.05</p> 
+		 <p id="d9">QST amount = Amount without sales taxes * 0.09975</p>
+		 <br><br>
+		<p id="d10">All calculations are rounded to two decimal places meaning the precision of calculated amount is $ 0.01.</p><br><br>
+		  </section>
+	   
+	  
+  </body>
+</html>

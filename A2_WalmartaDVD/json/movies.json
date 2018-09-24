@@ -1,0 +1,35 @@
+{ 	"ENGLISH": {
+		"title": "Welcome to online Walmart DVD center",
+		"slogan": "Save Money. Live Better.",	
+		"button_text": "FR",
+	    "alert": "DVD added to your cart!",
+		"add": "ADD TO CART",
+		"MOVIE1": {"image": "images/BlackPanther.jpg", "title": "Black Panther", "starring": "Starring - Chadwick Boseman, Michael B. Jordan", "by": "By Disney", "price": "$19.88"},
+		"MOVIE2": {"image": "images/TheIncredibleHulk.jpg", "title": "The Incredible Hulk", "starring": "", "by": "By Universal Studios Home Entertainment", "price": "$5.00"},
+		"MOVIE3": {"image": "images/TheWeddingPlanner.jpg", "title": "The Wedding Planner / My Best Friend's Wedding", "starring": "", "by": "By Sony Pictures Home Entertainment", "price": "$4.88"},
+		"MOVIE4": {"image": "images/TheGreatestSnowman.jpg", "title": "The Greatest Showman", "starring": "Starring Hugh Jackman, Zac Efron", "by": "By Twentieth Century Fox", "price": "$15.00"},
+		"MOVIE5": {"image": "images/TheMazeRunner.jpg", "title": "The Maze Runner", "starring": "Starring - Chadwick Boseman, Michael B. Jordan", "by": "By Disney", "price": "$5.00"},
+		"MOVIE6": {"image": "images/HocusPocus.jpg", "title": "Hocus Pocus", "starring": "", "by": "By Disney", "price": "$5.00"},
+		"MOVIE7": {"image": "images/EyeForAnEye.jpg", "title": "Eye for an Eye", "starring": "Starring - Sally Field, Kiefer Sutherland", "by": "By Paramount Home Entertainment", "price": "$5.88"},
+		"MOVIE8": {"image": "images/Bambi.jpg", "title": "Bambi", "starring": "Starring - Bobbie Stewart, Donald R. Dunagan, Hardie Albright, Peter C. Behn, Tim Davis, Sam Edwards, Stan Alexander, Tim Davis, Sterling Holloway, Cammie King, Ann Gillis, Paula Winslowe, Will Wright, Mary Lansing. ", "by": "By Disney", "price": "$15.00"},
+		"MOVIE9": {"image": "images/MrBean.jpg", "title": "Mr. Bean: The Whole Bean Complete Series", "starring": "Starring - Chadwick Boseman, Michael B. Jordan", "by": "By Universal Studios Home Entertainment", "price": "$20.00"}	
+		},
+ 
+ "FRENCH": {
+		"title": "Bienvenue au centre de DVD en ligne Walmart",
+		"slogan": "Économisez plus. Vivez mieux.",	
+		"button_text": "EN",
+	    "alert": "DVD ajouté à votre panier!",
+	 	"add":"AJOUTER AU PANIER",
+		"MOVIE1": {"image": "images/BlackPanther.jpg", "title": "Panthère Noire", "starring": "En vedette - Chadwick Boseman, Michael B. Jordan", "by": "Par Disney", "price": "19.88$"},
+	 	"MOVIE2": {"image": "images/TheIncredibleHulk.jpg", "title": "L'Incroyable Hulk", "starring": "", "by": "Par Universal Studios Home Entertainment", "price": "5.00$"},
+		"MOVIE3": {"image": "images/TheWeddingPlanner.jpg", "title": "La Marieuse/Le Mariage de mon Meilleur Ami", "starring": "", "by": "Par Sony Pictures Home Entertainment", "price": "4.88$"},
+		"MOVIE4": {"image": "images/TheGreatestSnowman.jpg", "title": "Le Maître de la scène", "starring": "En vedette - Hugh Jackman, Zac Efron", "by": "Par Twentieth Century Fox", "price": "15.00$"},
+		"MOVIE5": {"image": "images/TheMazeRunner.jpg", "title": "L'Épreuve : Le Labyrinthe", "starring": "En vedette - Chadwick Boseman, Michael B. Jordan", "by": "Par Disney", "price": "5.00$"},
+		"MOVIE6": {"image": "images/HocusPocus.jpg", "title": "Hocus Pocus", "starring": "", "by": "Par Disney", "price": "5.00$"},
+		"MOVIE7": {"image": "images/EyeForAnEye.jpg", "title": "Œil pour Œil", "starring": "En vedette - Sally Field, Kiefer Sutherland", "by": "Par Paramount Home Entertainment", "price": "5.88$"},
+		"MOVIE8": {"image": "images/Bambi.jpg", "title": "Bambi", "starring": "En vedette - Bobbie Stewart, Donald R. Dunagan, Hardie Albright, Peter C. Behn, Tim Davis, Sam Edwards, Stan Alexander, Tim Davis, Sterling Holloway, Cammie King, Ann Gillis, Paula Winslowe, Will Wright, Mary Lansing. ", "by": "Par Disney", "price": "15.00$"},
+		"MOVIE9": {"image": "images/MrBean.jpg", "title": "Toutes les Vidéos de la Série Mr Bean", "starring": "En vedette - Chadwick Boseman, Michael B. Jordan", "by": "Par Universal Studios Home Entertainment", "price": "20.00$"}	
+		} 
+
+}

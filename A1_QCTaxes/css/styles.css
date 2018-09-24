@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+  background: url(../images/bg.jpg) no-repeat fixed bottom center;
+  background-size: cover;
+}
+
+header{
+	display: flex;
+	margin-bottom: 50px;
+}
+
+img {
+	width: 150px;
+	height: 120px;
+	margin: auto 0;
+}
+h3 {
+	font-family: cursive;
+	text-align: center;
+	font-family: arial;
+	font-size: 33px;
+	margin: auto 5px;
+}
+
+.main {
+	align-self: center;
+	width: 90vw;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	max-width: 950px;
+	overflow: auto;
+}
+
+.container1 {
+  background-color: #5888b5;
+  width: 48%;
+  margin: 0 auto;
+  border-radius: 10%;
+  padding-top: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  float:left;	
+}
+
+.container2 {
+  background-color: #5888b5;
+  width: 48%;
+  margin: 0 auto;
+  border-radius: 10%;
+  padding-top: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  float:right;	
+}
+
+.fields {
+  display: block;
+  width: 140px;
+  height: 30px;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid grey;
+  font-weight: bold;
+}
+
+.buttons, .buttons2 {
+  background-color: #c1d6eb;
+  display: block;
+  width: 120px;
+  height: 30px;
+  margin: 10px auto;
+  margin-bottom: 40px;
+  border-radius: 5%;
+  font-weight: bold;
+}
+
+.buttons2 {
+  width: 50px;
+  border-radius: 25%;
+	margin-right: 30px;
+}
+
+.result_GST, .result_QST {
+  width: 140px;
+  height: 20px;
+  background-color: lightgray;
+  margin: 0 auto 20px;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid grey;
+}
+
+.result {
+  width: 140px;
+  height: 20px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid grey;
+  background: #e3eef7;
+}
+
+section {
+	border-color: darkblue;
+	border-style:double;
+	border-width: medium;
+	width: 75vw;
+	margin: auto;
+	font-family: arial;
+	font-style: oblique;
+	margin-top: 30px;
+	font-size: 15px;
+	align-self: center;
+	padding: 10px 2%;
+	margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+	img {	width: 120px;
+			height: 96px;
+			margin-right: 0;
+	}
+	h3 {font-size: 22px;}
+	.buttons2 {margin-right: 20px;
+}
+	.container1, .container2{
+		width: 90%;
+		float: none;
+		min-width: 250px;
+		max-width: 500px;
+	}
+	section {
+		max-width: 650px;
+	}
+}
